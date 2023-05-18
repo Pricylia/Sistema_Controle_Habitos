@@ -74,30 +74,26 @@ h1{
 .formLogin a {
     display: inline-block;
     margin-bottom: 20px;
-    font-size: 13px;
-    color: #555;
     transition: all linear 160ms;
+}
+
+.ta{
+    color: #555;
+    font-size: 13px;
 }
 
 .formLogin a:hover {
     color: #f72585;
 }
 
-button {
+.button {
+    text-align: center;
     background-color: #f72585;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    border: none !important;
-    transition: all linear 160ms;
-    cursor: pointer;
-    margin: 0 !important;
+    border: none;
+    margin: 0 ;
     padding: 20px 50px;
-
-}
-
-button:hover {
-    transform: scale(1.05);
-    background-color: #ff0676;
-
+    text-decoration: none;
 }

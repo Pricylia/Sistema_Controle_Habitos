@@ -1,9 +1,18 @@
-h1{
+h1 {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
 form {
-  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
   max-width: 600px;
   background-color: #FCD5CE;
   border-radius: 5px;
@@ -36,7 +45,6 @@ button {
   border-radius: 4px;
   font-size: 20px;
   text-align: center;
-
 }
 
 button a {
